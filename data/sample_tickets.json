@@ -1,0 +1,10 @@
+[
+  {"id": "101", "customer": "Kamal", "subject": "Charged twice for my subscription", "body": "I was charged twice this month and this is unacceptable. Please refund the extra payment."},
+  {"id": "102", "customer": "Ayesha", "subject": "Cannot log in to my account", "body": "I reset my password but my account is still locked. Please help."},
+  {"id": "103", "customer": "Nuwan", "subject": "App crashes on startup", "body": "Since the last update the app shows an error and crashes right after opening."},
+  {"id": "104", "customer": "Dilini", "subject": "Dark mode suggestion", "body": "It would be great if you could add a dark mode. Love the product otherwise, thank you!"},
+  {"id": "105", "customer": "Sam", "subject": "Dashboard is down for all users", "body": "Our whole team sees a 500 error. This is an outage and we are losing customers."},
+  {"id": "106", "customer": "Priya", "subject": "Question about opening hours", "body": "Hi, what are your support hours on public holidays?"},
+  {"id": "107", "customer": "Tharindu", "subject": "Invoice shows wrong company name", "body": "The latest invoice has the wrong company name. Can you correct it?"},
+  {"id": "108", "customer": "Lena", "subject": "Possible security issue", "body": "I think someone hacked my account, I see logins from another country."}
+]
