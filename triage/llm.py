@@ -140,5 +140,5 @@ def make_classifier(use_mock: bool, model: str):
     except ImportError as exc:
         raise LLMError("Install dependencies first: pip install -r requirements.txt") from exc
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, base_url=os.environ.get("OPENAI_BASE_URL") or None)
     return (lambda t: classify_with_openai(t, client, model)), "openai"
