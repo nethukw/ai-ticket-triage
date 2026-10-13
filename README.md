@@ -39,6 +39,16 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env             # then add your OPENAI_API_KEY
 ```
+## Using other OpenAI-compatible providers
+
+The tool uses the OpenAI Python SDK, so it also works with any OpenAI-compatible API (for example Groq).
+Set these in `.env`:
+
+    OPENAI_API_KEY=your-provider-key
+    OPENAI_BASE_URL=https://api.groq.com/openai/v1
+    OPENAI_MODEL=<a model ID available on your provider>
+
+Model names change over time. List the ones your key can use with the provider's `/models` endpoint.
 
 ## Usage
 
